@@ -6,10 +6,12 @@ __author__ = 'teddycool'
 # Create a stream of frames from a video file that can be used by opencv
 
 import time
+import sys
 
 from cv2 import cv2
 from urllib.request import urlopen
 import numpy as np
+sys.path.append("/home/pi/DartScore/SW")
 
 from DartScoreEngine.DartScoreEngineConfig import dartconfig
 
@@ -45,7 +47,7 @@ class VideoCam(object):
 if __name__ == '__main__':
     print("Testcode for StreamCam")
     cam = VideoCam()
-    cam.initialize(r'C:\Users\par\OneDrive\Documents\GitHub\DartScore\Testdata\Videos\dartscore_20191222_130118.avi')
+    cam.initialize(r'/home/pi/DartScore/Testdata/Videos/dartscore_20191222_130118.avi')
 
     while True:
         img = cam.update()

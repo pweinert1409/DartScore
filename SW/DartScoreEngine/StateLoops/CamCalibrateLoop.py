@@ -13,6 +13,8 @@ from DartScoreEngine.BoardCalibration import BoardArray
 from FrontEnd import FrontEndBase
 from DartScoreEngine.DartScoreEngineConfig import dartconfig
 
+# sys.path.append(dartconfig['SWDIR'])
+
 from cv2 import cv2
 import numpy as np
 
@@ -83,7 +85,9 @@ if __name__ == "__main__":
     from DartScoreEngine.Utils import testutils
     import sys
     import pygame
-    sys.path.append("/home/pi/DartScore/SW")
+    # sys.path.append("/home/pi/DartScore/SW")
+    
+    sys.path.append(dartconfig['SWDIR'])
 
     from DartScoreEngine.Utils import DummyMainLoop
     context = DummyMainLoop.DummyMainLoop()

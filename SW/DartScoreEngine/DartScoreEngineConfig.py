@@ -7,7 +7,7 @@ __author__ = 'teddycool'
 
 
 dartconfig = {"cam": {"res": (1024, 768), "camurl": "http://192.168.1.131:8081" },  # CAM settings, NO support for other res then (1024, 768)!
-
+                "SWDIR": {"/home/pi/DartScore/SW"},
                 "color": {"sector": (0, 255, 0),
                         "hit": (255, 0, 0),
                         "aim": (0, 255, 0),

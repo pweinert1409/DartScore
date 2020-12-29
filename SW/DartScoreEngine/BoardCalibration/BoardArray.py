@@ -1,20 +1,23 @@
 __author__ = 'teddycool'
 
 import math
+import sys
 
 from cv2 import cv2
 import numpy as np
+
+sys.path.append("/home/pi/DartScore/SW")
 
 from DartScoreEngine import  DartScoreEngineConfig
 
 
 # Class to create an array defining 'the perfect board' and a 'normalized' board used later on..
-# Actual board is 450 mm in diameter,  1 pixel per mm
+# Actual board is 456 mm in diameter,  1 pixel per mm
 
 
 class BoardArray(object):
 
-    def __init__(self, center=(250,250), radius = 225):
+    def __init__(self, center=(250,250), radius = 228):
         self._lines = []
         self._circles = []
         self._center =center

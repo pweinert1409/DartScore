@@ -94,8 +94,8 @@ if __name__ == "__main__":
 
     width = 1680
     height = 1050
-    gl = GameFrontEnd.GameFrontEnd(width, height)
-
+    # gl = GameFrontEnd.GameFrontEnd(width, height)
+    gl = GameFrontEnd.GameFrontEnd()
     import Cam
 
     cam = Cam.createCam("STREAM")

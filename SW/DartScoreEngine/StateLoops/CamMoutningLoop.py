@@ -1,4 +1,4 @@
-__author__ = 'teddycool'
+__author__ = 'teddycool' ##
 # This file is part of the DartScore project created by Pär Sundbäck
 # More at https://github.com/teddycool/DartScore
 #
@@ -15,7 +15,7 @@ from DartScoreEngine.DartScoreEngineConfig import dartconfig
 from DartScoreEngine.StateLoops import StateLoop
 from FrontEnd import FrontEndBase
 import time
-
+# sys.path.append(dartconfig['SWDIR'])
 
 class CamMountingLoop(StateLoop.StateLoop):
     def __init__(self):
@@ -55,6 +55,8 @@ if __name__ == "__main__":
     import pygame
 
     sys.path.append("/home/pi/DartScore/SW")
+    
+    # sys.path.append(dartconfig['SWDIR'])
 
     from DartScoreEngine.Utils import DummyMainLoop
 
