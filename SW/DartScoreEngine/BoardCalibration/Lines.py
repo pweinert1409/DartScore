@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
     cam = Cam.createCam("STREAM")
 
-    cam.initialize('http://192.168.1.131:8081')
+    cam.initialize('http://192.168.2.141:8081')
 
     frame = cam.update()
     index = 0

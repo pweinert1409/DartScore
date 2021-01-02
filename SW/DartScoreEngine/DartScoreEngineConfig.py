@@ -6,7 +6,7 @@ __author__ = 'teddycool'
 #Config values for DartScoreEngine. This is the only place for these.
 
 
-dartconfig = {"cam": {"res": (1024, 768), "camurl": "http://192.168.1.131:8081" },  # CAM settings, NO support for other res then (1024, 768)!
+dartconfig = {"cam": {"res": (1024, 768), "camurl": "http://192.168.2.141:8081" },  # CAM settings, NO support for other res then (1024, 768)!
                 "SWDIR": {"/home/pi/DartScore/SW"},
                 "color": {"sector": (0, 255, 0),
                         "hit": (255, 0, 0),

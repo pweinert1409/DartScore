@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     cam.initialize(r'C:\Users\par\OneDrive\Documents\GitHub\DartScore\Testdata\Videos\dartscore_20191222_130118.avi')
 
-    #cam.initialize('http://192.168.1.131:8081')
+    #cam.initialize('http://192.168.2.141:8081')
 
     ba = BoardArray.BoardArray()
 

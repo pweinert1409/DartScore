@@ -14,7 +14,7 @@ if platform.node() == 'DELL-laptop1':
     sys.path.append(r'C:\Users\par\OneDrive\Documents\GitHub\DartScore\SW')
     videofilepath = r'C:\Users\par\OneDrive\Documents\GitHub\DartScore\Testdata\Videos\dartscore_20191120_174641.avi'
     recorderfilepath = r'C:\Users\par\OneDrive\Documents\GitHub\DartScore\Testdata\Videos'
-    camstreamurl = 'http://192.168.1.131:8081'
+    camstreamurl = 'http://192.168.2.141:8081'
 else:
     videofilepath = r'/home/pi/DartScore/Testdata/Videos/dartscore_20191107_152701.avi'
 

@@ -125,7 +125,7 @@ if __name__ == "__main__":
 
 
     cap = Cam.createCam("STREAM")
-    # cap.initialize('http://192.168.1.131:8081')
+    # cap.initialize('http://192.168.2.141:8081')
     cap.initialize('camurl')
     transform = np.float32([[1.78852294e+00, -1.10143263e-01, -4.85063747e+02],
                             [2.17855239e-01, 1.03682933e+00, -3.82665632e+01],
